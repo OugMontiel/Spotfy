@@ -22,7 +22,7 @@ export class s2a2 extends LitElement {
                 <option value=""> Years </option>
             </select>
         </div>
-        
+        <consulta-one></consulta-one>
         `
     }
 }
@@ -33,6 +33,7 @@ export class s2a3 extends LitElement {
     render(){
         return html`
         <h5>You may like</h5>
+        <consulta-two></consulta-two>
         `
     }
 }
