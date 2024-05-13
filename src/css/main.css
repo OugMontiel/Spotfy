@@ -5,14 +5,14 @@ body {
   display:grid;
   grid-template-columns: 1fr 5fr 7fr 5fr;
   
-  grid-gap: 1em;
+  /* grid-gap: 1em; */
 }
 .S1,.S2,.S3,.S4{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  gap: 1em;
+  /* gap: 1em; */
 }
 .S1A2,.S2A2,.S2A4,.S3A2,.S4A2{
   flex-grow: 1;
@@ -29,9 +29,7 @@ body {
 }
 
 /* elementos visuales para disinguir los diferntes segmentos de la paguina */
-article{
-  background-color: #010;
-}
+
 section{
   background-color: #bbb;
 }
