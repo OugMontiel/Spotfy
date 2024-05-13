@@ -1,9 +1,9 @@
-export class playingNext extends HTMLElement {
+export class s4s2 extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({mode: "open"});
         this.shadowRoot.innerHTML = /*html*/`
-        <link rel="stylesheet" href="../../css/components/playing_next.css">
+        <link rel="stylesheet" href="../../css/components/s3.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>`
     }
     async getAllMusicNext() {
