@@ -14,7 +14,7 @@ body {
 
   /* gap: 1em; */
 }
-.S1A2,.S2A2,.S2A4,.S3A2,.S4A2{
+.S1A2,.S3A2,.S4A2{
   flex-grow: 1;
 }
 
