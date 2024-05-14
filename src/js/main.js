@@ -11,6 +11,10 @@ import{
     s4a1,
     s4a2
 } from "./components/s4.js"
+import{ 
+    s3a1,
+    s3a2
+} from "./components/s3.js"
 import{
     one,
     two
@@ -25,6 +29,9 @@ customElements.define("s2-a3",s2a3)
 
 customElements.define("s4-a1",s4a1)
 customElements.define("s4-a2",s4a2)
+
+customElements.define("s3-a1",s3a1)
+customElements.define("s3-a2",s3a2)
 
 customElements.define("consulta-one",one)
 customElements.define("consulta-two",two)
