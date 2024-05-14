@@ -5,10 +5,12 @@ export class s2a2 extends LitElement {
         super()
     }
     static styles=css`
-
         div{
             display:flex;
             justify-content:space-between;
+        }
+        h5{
+            margin: 0;
         }
     `
     render(){
@@ -30,6 +32,11 @@ export class s2a3 extends LitElement {
     constructor(){
         super()
     }
+    static styles = css`
+    h5{
+        margin: 0;
+    }
+    `
     render(){
         return html`
         <h5>You may like</h5>
