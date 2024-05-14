@@ -12,6 +12,9 @@ export class s2a2 extends LitElement {
         h5{
             margin: 0;
         }
+        consulta-one{
+            max-height:35vh;
+        }
     `
     render(){
         return html`
@@ -33,9 +36,12 @@ export class s2a3 extends LitElement {
         super()
     }
     static styles = css`
-    h5{
-        margin: 0;
-    }
+        h5{
+            margin: 0;
+        }
+        consulta-two{
+            max-height:35vh;
+        }
     `
     render(){
         return html`

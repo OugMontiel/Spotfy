@@ -1,33 +1,42 @@
-// export class s4s2 extends HTMLElement {
-//     constructor() {
-//         super();
-//         this.attachShadow({mode: "open"});
-//         this.shadowRoot.innerHTML = /*html*/`
-//         <link rel="stylesheet" href="../../css/components/s4.css">
-//         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>`
-//     }
-//     async getAllMusicNext() {
-//         let data
-//         data.forEach(val => {
-//             this.shadowRoot.innerHTML += /*html*/`
-//             <div class="container">
-//                 <div class="icono"><i class='bx bx-menu-alt-left' style='color:#b9b9b9'  ></i></div>
-//                 <div class="img">
-//                 <img src="${val.img}" alt="">
-//                 </div>
-//                 <div class="texto">
-//                     <h3>${val.name}</h3>
-//                     <p>${val.author}</p>
-//                 </div>
-//                 <div class="tiempo">
-//                     <h3>${val.duration}</h3>
-//                     <h4>${val.date}</h4>
-//                 </div>
-//             </div>
-//             `;
-//         })
-//     }
-// }
+import { html,css, LitElement } from "lit";
 
+export class s4a1 extends LitElement{
+    constructor(){
+        super()
+    }
+    static styles =css`
+        h1{
+            margin:0;
+        }
+    `
+    render(){
+        return html`
+        <h1>Track list</h1>
+        <div>
+        <box-icon name='shuffle'></box-icon>
+        <box-icon name='sync'></box-icon>
+        </div>
+        `
+    }
+}
+export class s4a2 extends LitElement{
+    constructor(){
+        super()
+    }
+    static styles =css`
+        h5{
+            margin:0;
+        }
+        consulta-two{
+            max-height:80vh;
+        }
+    `
+    render(){
+        return html`
+        <h5>playing next</h5>
+        <consulta-two></consulta-two>
+        `
+    }
+}
 
 

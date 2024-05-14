@@ -9,8 +9,6 @@ export class one extends LitElement{
             display:grid;
             grid-template-columns:1fr 1fr;
 
-            max-height:35vh;
-
             overflow:auto;
             overflow-y:auto;
         }
@@ -88,8 +86,6 @@ export class two extends LitElement{
         :host{
             display:flex;
             flex-direction:column;
-            
-            max-height:35vh;
             
             overflow:auto;
             overflow-y:auto;
