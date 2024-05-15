@@ -1,3 +1,8 @@
+import "./components/prueva.js"
+import{
+    one,
+    two
+}from "./components/consultas.js"
 import{
     s2a2,
     s2a3
@@ -15,10 +20,6 @@ import{
     s3a1,
     s3a2
 } from "./components/s3.js"
-import{
-    one,
-    two
-}from "./components/consultas.js"
 
 customElements.define("s1-a1", s1a1 )
 customElements.define("s1-a2", s1a2 )
