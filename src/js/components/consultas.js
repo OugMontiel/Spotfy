@@ -41,6 +41,7 @@ export class one extends LitElement{
 }
 export class two extends LitElement{
     static properties={
+        id:{type: Array },
         name: { type: String },
         autor: { type: String },
         album: { type: String },
@@ -50,6 +51,7 @@ export class two extends LitElement{
     }
     constructor(){
         super();
+        this.id = [];
         this.name = 'a';
         this.autor = 'Hoo';
         this.album = 'Hola';

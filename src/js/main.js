@@ -1,4 +1,4 @@
-import "./components/prueva.js"
+// import "./components/prueva.js"
 import{
     one,
     two
