@@ -27,7 +27,6 @@ export class s3a2 extends LitElement {
         h3, p,small{
             margin:0;
         }
-        :h
         .one{
             display:flex;
             justify-content:center;
@@ -37,9 +36,7 @@ export class s3a2 extends LitElement {
         .one article{
             display:flex;
             flex-direction:column;
-        }
-        .one img{
-            flex-grow:1;
+            width:80%;
         }
         .one div{
             display:flex;
