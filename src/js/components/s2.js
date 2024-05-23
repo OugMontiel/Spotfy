@@ -1,10 +1,10 @@
-import { html,css, LitElement } from "lit";
+import { html, css, LitElement } from "lit";
 
 export class s2a2 extends LitElement {
-    constructor(){
+    constructor() {
         super()
     }
-    static styles=css`
+    static styles = css`
         div{
             display:flex;
             justify-content:space-between;
@@ -16,7 +16,7 @@ export class s2a2 extends LitElement {
             max-height:35vh;
         }
     `
-    render(){
+    render() {
         return html`
         <div>
             <h5>Top-chart</h5>
@@ -32,7 +32,7 @@ export class s2a2 extends LitElement {
     }
 }
 export class s2a3 extends LitElement {
-    constructor(){
+    constructor() {
         super()
     }
     static styles = css`
@@ -43,7 +43,7 @@ export class s2a3 extends LitElement {
             max-height:35vh;
         }
     `
-    render(){
+    render() {
         return html`
         <h5>You may like</h5>
         <consulta-two></consulta-two>

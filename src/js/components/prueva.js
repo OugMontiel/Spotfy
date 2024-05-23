@@ -51,7 +51,7 @@ async function buscadorDeID(q, type) {
     try {
         const response = await fetch(url, options);
         const result = await response.json();
-        let types = result.${type}.items;
+        let types = result.${ type }.items;
         let results = [];
         types.forEach(album => {
             const uri = album.data.uri;

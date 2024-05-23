@@ -1,11 +1,11 @@
 //  Agregaer  ... type='solid ... cuanod se selecciona una elemnento a este espacio  
-import {css, html, LitElement} from 'lit';
+import { css, html, LitElement } from 'lit';
 
-export class s1a1 extends LitElement{
-    constructor(){
+export class s1a1 extends LitElement {
+    constructor() {
         super();
     }
-    static styles =css`
+    static styles = css`
         :host{
             display:flex;
             flex-direction: column;
@@ -20,7 +20,7 @@ export class s1a1 extends LitElement{
             height:5vh;
         }
     `;
-    render(){
+    render() {
         return html`
         <box-icon type='logo' name='meta'></box-icon>
         <box-icon name='user-circle'></box-icon>
@@ -28,11 +28,11 @@ export class s1a1 extends LitElement{
     }
 }
 
-export class s1a2 extends LitElement{
-    constructor(){
+export class s1a2 extends LitElement {
+    constructor() {
         super();
     }
-    static styles =css`
+    static styles = css`
         :host{
             display:flex;
             flex-direction: column;
@@ -47,7 +47,7 @@ export class s1a2 extends LitElement{
             height:5vh;
         }
     `;
-    render(){
+    render() {
         return html`
         <box-icon  name='compass'></box-icon>
         <box-icon  name='music'></box-icon>
@@ -57,11 +57,11 @@ export class s1a2 extends LitElement{
     }
 }
 
-export class s1a3 extends LitElement{
-    constructor(){
+export class s1a3 extends LitElement {
+    constructor() {
         super();
     }
-    static styles =css`
+    static styles = css`
         :host{
             display:flex;
             flex-direction: column;
@@ -76,7 +76,7 @@ export class s1a3 extends LitElement{
             height:5vh;
         }
     `;
-    render(){
+    render() {
         return html`
         <box-icon  name='cog'></box-icon>
         <box-icon name='upload' rotate='270' ></box-icon>`

@@ -1,7 +1,7 @@
-import {css, html, LitElement} from 'lit';
+import { css, html, LitElement } from 'lit';
 
-export class one extends LitElement{
-    constructor(){
+export class one extends LitElement {
+    constructor() {
         super()
     }
     static styles = css`
@@ -28,7 +28,7 @@ export class one extends LitElement{
             object-fit: cover; /* Ajusta la imagen para que ocupe todo el espacio sin distorsionarse */
         }
     `
-    render(){
+    render() {
         return html`
             <article>
             <div> <img src="/vite.svg" alt="vite"></div>
@@ -39,9 +39,9 @@ export class one extends LitElement{
         `
     }
 }
-export class two extends LitElement{
-    static properties={
-        id:{type: Array },
+export class two extends LitElement {
+    static properties = {
+        id: { type: Array },
         name: { type: String },
         autor: { type: String },
         album: { type: String },
@@ -49,7 +49,7 @@ export class two extends LitElement{
         year: { type: String },
         imageSrc: { type: String },
     }
-    constructor(){
+    constructor() {
         super();
         this.id = [];
         this.name = 'a';
@@ -58,8 +58,10 @@ export class two extends LitElement{
         this.time = 'Hola';
         this.year = '35416';
         this.imageSrc = 'oola';
-    }
-    static styles =css`
+        let allId = []
+    };
+
+    static styles = css`
         :host{
             display:flex;
             flex-direction:column;
@@ -81,7 +83,7 @@ export class two extends LitElement{
             align-items: flex-end;
         }
     `
-    render(){
+    render() {
         return html`
         <article>
             <div> <img src="${this.imageSrc}" alt="vite"></div>

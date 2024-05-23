@@ -1,39 +1,48 @@
 @import url(../variables.css);
-*{
+
+* {
     padding-left: 3px;
     line-height: 1px;
 }
-.container{
+
+.container {
     margin-top: 1px;
     width: 100%;
     display: flex;
     align-items: center;
     height: 6vh;
 }
+
 .icono {
     margin-left: 0px;
     width: 10%;
     display: flex;
     align-items: center;
 }
-.texto{
+
+.texto {
     width: 55%;
     margin-left: 5px;
 }
-.tiempo{
+
+.tiempo {
     width: 15%;
 }
-.img{
+
+.img {
     width: 20%;
     display: flex;
     align-items: center;
 }
-i{
+
+i {
     font-size: 20px;
 }
-img{
+
+img {
     width: 100%;
 }
-.tiempo h4{
+
+.tiempo h4 {
     color: var(--color-gray);
 }
